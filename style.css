@@ -1,32 +1,28 @@
-/* # Front-end Style Guide
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
-## Layout
+:root {
+  /* Breakpoints */
 
-The designs were created to the following widths:
+  --mobile: 375px;
+  --desktop: 1440px;
 
-- Mobile: 375px
-- Desktop: 1440px
+  /* Colors */
 
-## Colors
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
 
-### Primary
+  /* Weight */
 
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
+  --extra-bold: 800;
 
-### Neutral
+  /* Font-family */
 
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%)
+  --main-family: "Manrope", sans-serif;
+}
 
-## Typography
-
-### Body Copy
-
-- Font size (quote): 28px
-
-### Font
-
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 800 */
+body {
+  font-size: 28px;
+}
