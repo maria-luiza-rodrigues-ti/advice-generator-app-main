@@ -54,6 +54,7 @@ span {
   line-height: normal;
   letter-spacing: 3.457px;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1024px) {
